@@ -200,7 +200,7 @@ schedule:
 sponsors:
   - 
     name: "Google Developers"
-    logo: "./img/partners/gd.jpg"
+    logo: "./img/partners/google_developers.png"
     url: "http://developers.google.com/"
   - 
     name: "Grupo Rede+"
