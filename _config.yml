@@ -1,0 +1,289 @@
+﻿# Jekyll
+markdown: rdiscount
+highlighter: "rouge"
+permalink: /:title.html
+
+# Conference info
+conf:
+  name: "#io2016 Extended Aracaju"
+  description: "Google I/O 2016 Extended Aracaju"
+  date: "18 de maio de 2016"
+  price: "Gratuito!"
+  address: "Praça Getúlio Vargas, 63 - Grageru"
+  venue: "Rede+ Coworking Aracaju"
+  city: "Aracaju, Sergipe"
+
+# Site info
+site:
+  author: "GDG Aracaju"
+  url: "http://io.gdgaracaju.com.br"
+  favicon: "http://www.gdgaracaju.com.br/favicon.ico"
+  googleanalytics: "UA-49492619-1"
+  images:
+    cover: "./img/og_image.png"
+    facebook: "http://io.gdgaracaju.com.br/img/og_image.png"
+
+subscribe_text: "Inscreva-se, vagas limitadas!"
+subscribe_url: "http://www.meetup.com/pt-BR/GDG-Aracaju/events/229951264/"
+
+# Active sections on the website
+sections:
+  about: true
+  c4p: false
+  location: true
+  speakers: false
+  schedule: true
+  sponsors: true
+  partners: true
+  contact: false
+  tickets: false
+
+# Organizers list
+organizers:
+  -
+    name: "GDG Aracaju"
+    photo: "./img/partners/gdgaracaju.png"
+    url: "http://site.gdgaracaju.com.br/"
+    bio: ""
+    company: ""
+  -
+    name: "Erick Mendonça"
+    photo: "./img/speakers/erick_mendonca.jpg"
+    url: "http://github.com/erickmendonca"
+    bio: "Formando na Universidade Federal de Sergipe e possui experiência como desenvolvedor e analista de sistemas. Co-organizador do Google Developer Group Aracaju, busca compartilhar conhecimento e aperfeiçoar a comunidade local de desenvolvedores e empreendedores através de eventos técnicos e encontros descontraídos para incentivar o crescimento e a empatia da comunidade local."
+    company: "UFS"
+  -
+    name: "Italo Marcel"
+    photo: "./img/speakers/italo_marcel.jpg"
+    url: "https://github.com/italomarcel"
+    bio: ""
+    company: "Getinfo"
+  -
+    name: "Raphael Pantaleão"
+    photo: "./img/speakers/raphael.jpg"
+    url: "http://github.com/raphaelpanta"
+    bio: ""
+    company: ""
+  -
+    name: "Roberto Brandini"
+    photo: "./img/speakers/roberto_brandini.jpg"
+    url: "https://www.facebook.com/roberto.brandini"
+    bio: ""
+    company: ""
+
+# Speakers list
+speakers:
+  - 
+    name: "Diego Melo"
+    url: ""
+    photo: "./img/speakers/diego.jpg"
+    title: "Chrome Dev Tools"
+    details: ""
+  - 
+    name: "Eduardo Borges"
+    url: ""
+    photo: "./img/speakers/eduardo.jpg"
+    title: "Polymer 1.0"
+    details: ""
+  - 
+    name: "Italo Marcel"
+    url: ""
+    photo: "./img/speakers/italo_marcel.jpg"
+    title: "Android"
+    details: ""
+  - 
+    name: "Ygor César"
+    url: ""
+    photo: "./img/speakers/ygor.jpg"
+    title: "Firebase e Android"
+    details: ""
+
+# Schedule
+schedule:
+  -
+    day: "1805"
+    name: "18/05 Google I/O Dia 1"
+    description: ""
+    #url: ""
+    agenda:
+      -
+        name: "Keynote ao vivo de San Francisco"
+        time:
+          start: "14:00"
+          end: "16:00"
+        description: ""
+        speaker:
+          name: ""
+          photo: ""
+          url: ""
+      -
+        name: "Intervalo e coffee-break"
+        time:
+          start: "16:00"
+          end: "16:30"
+        description: ""
+        speaker:
+          name: ""
+          photo: ""
+          url: ""
+      -
+        name: "Palestra: Android"
+        time:
+          start: "16:30"
+          end: "17:30"
+        description: "Tema específico a definir"
+        speaker:
+          name: "Italo Marcel"
+          photo: "./img/speakers/italo_marcel.jpg"
+          url: ""
+      -
+        name: "Palestra: Polymer 1.0"
+        time:
+          start: "17:30"
+          end: "18:30"
+        description: ""
+        speaker:
+          name: "Eduardo Borges"
+          photo: "./img/speakers/eduardo.jpg"
+          url: ""
+      - 
+        name: "Intervalo e coffee-break"
+        time:
+          start: "18:30"
+          end: "19:00"
+        description: ""
+        speaker:
+          name: ""
+          photo: ""
+          url: ""
+      -
+        name: "Palestra: Firebase e Android"
+        time:
+          start: "19:00"
+          end: "20:00"
+        description: ""
+        speaker:
+          name: "Ygor César"
+          photo: "./img/speakers/ygor.jpg"
+          url: ""
+      -
+        name: "Palestra: Chrome Dev Tools"
+        time:
+          start: "20:00"
+          end: "21:00"
+        description: ""
+        speaker:
+          name: "Diego Melo"
+          photo: "./img/speakers/diego.jpg"
+          url: ""
+      - 
+        name: "Encerramento"
+        time:
+          start: "21:00"
+          end: "21:10"
+        description: ""
+        speaker:
+          name: ""
+          photo: ""
+          url: ""
+      - 
+        name: "After Hours"
+        time:
+          start: "21:10"
+          end: "--"
+        description: ""
+        speaker:
+          name: ""
+          photo: ""
+          url: ""
+# List of Sponsors
+sponsors:
+  - 
+    name: "Google Developers"
+    logo: "./img/partners/gd.jpg"
+    url: "http://developers.google.com/"
+  - 
+    name: "Grupo Rede+"
+    logo: "./img/partners/rede.jpg"
+    url: "http://gruporedemais.com/"
+  - 
+    name: "Universidade Tiradentes"
+    logo: "./img/partners/unit.jpg"
+    url: "http://www.unit.br/"
+
+
+# List of Partners
+partners:
+  -
+    name: "CajuValley"
+    logo: "./img/partners/cajuvalley.png"
+    url: "https://www.facebook.com/cajuvalley"
+  -
+    name: "DP Sistemas"
+    logo: "./img/partners/dpsistemas.png"
+    url: "http://www2.dpsistemas.com.br/"
+
+
+# About section
+about_section:
+   title: "Sobre"
+   description: "O Google I/O é o maior evento de desenvolvedores da Google. Venha com a gente acompanhar todas as novidades!"
+
+# Call for papers section
+c4p_section:
+   title: "Call for papers"
+   text: "Se você tem interesse em contribuir com a comunidade nessa jornada, faça uma proposta :) Nós estamos interessados em testes, Firebase, aplicativos híbridos, criação de APIs, backend, além de conteúdo sobre desenvolvimento Android."
+   c4p_url: "http://goo.gl/forms/Wbcc4OQfgB"
+   c4p_caption: "Preencha o form!"
+   c4p_rules_url: ""
+   c4p_rules_caption: ""
+
+# Contact section
+contact_section:
+   title: "Contato"
+   text: "Fale conosco se tiver qualquer dúvida!"
+   contacts:
+   -
+     title: "Email"
+     link: "mailto:gdgaracaju@gmail.com"
+   -
+     title: "Google+"
+     link: "https://plus.google.com/communities/100418157558568471841"
+   email: "gdgaracaju@gmail.com"
+   twitter_url: "http://twitter.com/gdgaracaju"
+   twitter_username: "@gdgaracaju"
+   show_form: false
+   form:
+    action: "contato.php"
+    name: "What's your name?"
+    email: "What's your email?"
+    message: "Write a message"
+    send_button: "Send"
+
+# Location section
+location_section:
+   title: "Local"
+
+# Partners section
+partners_section:
+   title: "Parceiros"
+   show_your_logo_here: false
+   your_logo_here_link: "mailto:gdgaracaju@gmail.com"
+
+# Schedule section
+schedule_section:
+   title: "Programação"
+   text: "A programação pode sofrer alterações sem avisos prévios."
+   time: "Hora"
+   slot: "Atividade"
+   description: "Descrição"
+
+# Speakers section
+speakers_section:
+   title: "Palestrantes"
+
+# Sponsors section
+sponsors_section:
+   title: "Patrocinadores"
+   show_your_logo_here: false
+   your_logo_here_link: "mailto:gdgaracaju@gmail.com"
