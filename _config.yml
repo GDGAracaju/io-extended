@@ -207,9 +207,9 @@ sponsors:
     logo: "./img/partners/rede.jpg"
     url: "http://gruporedemais.com/"
   - 
-    name: "Universidade Tiradentes"
-    logo: "./img/partners/unit.jpg"
-    url: "http://www.unit.br/"
+    name: "Getinfo"
+    logo: "./img/partners/getinfo.png"
+    url: "http://getinfo.net.br/"
 
 
 # List of Partners
@@ -222,6 +222,18 @@ partners:
     name: "DP Sistemas"
     logo: "./img/partners/dpsistemas.png"
     url: "http://www2.dpsistemas.com.br/"
+  - 
+    name: "Popcode"
+    logo: "./img/partners/popcode.jpg"
+    url: "http://www.popcode.com.br/"
+  - 
+    name: "SergipeTec"
+    logo: "./img/partners/sergipetec.svg"
+    url: "http://www.sergipetec.org.br/"
+  - 
+    name: "Universidade Tiradentes"
+    logo: "./img/partners/unit.jpg"
+    url: "http://www.unit.br/"
 
 
 # About section
